@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        body{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h3{
+            font-size: 40px;
+            color:rgba(7, 19, 190, 0.932);
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+        }
+
+        h3:hover{
+            padding: 0;
+            font-size: 50px;
+            color: rgba(255, 0, 170, 0.904);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .quotes{
+            display: inline;
+            color: rgba(7, 19, 190, 0.932);
+            margin-top: 340px;
+            padding-top: 12px;
+            border-top: 1.80px solid rgba(7, 19, 190, 0.932);
+            padding-bottom: 12px;
+            border-bottom: 1.80px solid rgba(7, 19, 190, 0.932);
+            font-family: 'Roboto', sans-serif;
+        }
+        #login{
+            margin-top: 150px;
+        }
+        button{
+            border: 0;
+            border-radius: 7px;
+            color: rgba(24, 15, 151, 0.884);
+            background-color: rgb(189, 192, 228);
+            font-size: 24px;
+            font-weight: bold;
+            width: 110px;
+            transition: 0.3s ease-in-out;
+        }
+        button:hover{
+            font-weight: bold;
+            border: 0;
+            border-radius: 7px;
+            font-size: 24px;
+            color: rgba(255, 166, 0, 0.89);
+            background-color: rgba(3, 2, 112, 0.795);
+        }
+        button:active{
+            font-weight: bold;
+            border: 0;
+            border-radius: 0;
+            font-size: 24px;
+            color: rgb(7, 88, 38);
+            background-color: rgba(197, 126, 179, 0.726);
+        }
+        .but1, .but2{
+            height: 30px;
+            border-radius: 16px;
+            width: 220px;
+        }
+        ::placeholder{
+            color: darkgreen;
+            padding-left: 12px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+        input{
+            padding-left: 12px;
+            color: rgba(7, 19, 190, 0.932);
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+        }
