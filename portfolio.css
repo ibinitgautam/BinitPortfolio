@@ -1,78 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-        body{
-            text-align: center;
-            margin-top: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+            
+    body{
+        background-color: rgba(152, 86, 243, 0.959);
+        text-align: center;
         }
-
-        h3{
-            font-size: 40px;
-            color:rgba(7, 19, 190, 0.932);
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            transition: 0.3s ease-in-out;
+    h3{
+         margin-left: 30px;
+        font-size: 42px;
+        color: white;
+        font-weight: bold;
+        margin-top: 10px;
+        font-family: 'Oswald', sans-serif;            
+        letter-spacing: 12px;
         }
-
-        h3:hover{
-            padding: 0;
-            font-size: 50px;
-            color: rgba(255, 0, 170, 0.904);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .user{
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .para{
+        margin-top: 20px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 40px;
+        letter-spacing: 2px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+        transition: 0.3s ease-in-out;
         }
-        .quotes{
-            display: inline;
-            color: rgba(7, 19, 190, 0.932);
-            margin-top: 340px;
-            padding-top: 12px;
-            border-top: 1.80px solid rgba(7, 19, 190, 0.932);
-            padding-bottom: 12px;
-            border-bottom: 1.80px solid rgba(7, 19, 190, 0.932);
-            font-family: 'Roboto', sans-serif;
+    .para:hover{
+        margin-left: 480px;
+        margin-right: 480px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 30px;
+        letter-spacing: 2px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Roboto Condensed', sans-serif;
         }
-        #login{
-            margin-top: 150px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
         }
-        button{
-            border: 0;
-            border-radius: 7px;
-            color: rgba(24, 15, 151, 0.884);
-            background-color: rgb(189, 192, 228);
-            font-size: 24px;
-            font-weight: bold;
-            width: 110px;
-            transition: 0.3s ease-in-out;
+    .mainBox{
+        margin-top: 250px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Ubuntu', sans-serif;
         }
-        button:hover{
-            font-weight: bold;
-            border: 0;
-            border-radius: 7px;
-            font-size: 24px;
-            color: rgba(255, 166, 0, 0.89);
-            background-color: rgba(3, 2, 112, 0.795);
-        }
-        button:active{
-            font-weight: bold;
-            border: 0;
-            border-radius: 0;
-            font-size: 24px;
-            color: rgb(7, 88, 38);
-            background-color: rgba(197, 126, 179, 0.726);
-        }
-        .but1, .but2{
-            height: 30px;
-            border-radius: 16px;
-            width: 220px;
-        }
-        ::placeholder{
-            color: darkgreen;
-            padding-left: 12px;
-            font-weight: bold;
-            font-family: 'Roboto', sans-serif;
-        }
-        input{
-            padding-left: 12px;
-            color: rgba(7, 19, 190, 0.932);
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-size: 15px;
+    #details{
+        padding: 20px;
+        letter-spacing: 1px;
+        margin-top: 100px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Ubuntu', sans-serif;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        transition: 0.3s ease-in-out;
+        margin-left: 300px;
+        margin-right: 300px;
         }
