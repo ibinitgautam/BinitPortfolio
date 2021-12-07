@@ -101,12 +101,21 @@ h1 span{
         width: 30%;
     }
     .img-box{
-        position: relative;
+        display: none;
     }
     .inf0{
-        position: absolute;
+        background-image: url("../static/support/cover.jpg");
+        background-position: fixed;
+        height: 100%;
+        width: 100%;
     }
     ul{
         display: none;
+    }
+    .info h1{
+        font-size: 1.5rem;
+    }
+    .info p{
+        font-size: 12px;
     }
 }
